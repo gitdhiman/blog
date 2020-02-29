@@ -1,3 +1,8 @@
+---
+toc: true
+description: CLV is the present value of the future (net) cash flows associated with each existing customer. It is a forward-looking concept, not to be confused with historic customer profitability.
+categories: [markdown]
+---
 # What is customer lifetime value?
 
 ![]({{ site.baseurl }}/images/grocery.jpg)
