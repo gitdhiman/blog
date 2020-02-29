@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/blog/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>What is customer lifetime value? | Anubhav Dhiman</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="What is customer lifetime value?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Personal Blog" />
+<meta property="og:description" content="Personal Blog" />
+<link rel="canonical" href="https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html" />
+<meta property="og:url" content="https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html" />
+<meta property="og:site_name" content="Anubhav Dhiman" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-29T00:00:00-06:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html"},"description":"Personal Blog","@type":"BlogPosting","url":"https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html","headline":"What is customer lifetime value?","dateModified":"2020-02-29T00:00:00-06:00","datePublished":"2020-02-29T00:00:00-06:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/blog/assets/main.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://gitdhiman.github.io/blog/feed.xml" title="Anubhav Dhiman" />
+
+  <script>
+  function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+  }
+  window.onload = wrap_img;
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      // add link icon to anchor tags
+      var elem = document.querySelectorAll(".anchor-link")
+      elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+      // remove paragraph tags in rendered toc (happens from notebooks)
+      var toctags = document.querySelectorAll(".toc-entry")
+      toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+  </script>
+</head><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Anubhav Dhiman</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">What is customer lifetime value?</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-02-29T00:00:00-06:00" itemprop="datePublished">
+        Feb 29, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="/blog/images/grocery.jpg" alt="" title="Grocery store" /></p>
+
+<p>In most cases value of a firm is profits from <strong>existing and future customers</strong> (a.k.a. Customer Equity). 
+Research done by Frederick Reichheld of Bain &amp; Company (nventor of the net promoter score) showed 
+<a href="http://www2.bain.com/Images/BB_Prescription_cutting_costs.pdf">increasing customer retention rates by 5% increased profits by 25% to 95%</a>. It is possible 
+to calculate Customer Equity (CE) because Customer Lifetime Value (CLV) can be measured with a 
+reasonable degree of precision.</p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/dir.10045">CLV is the present value of the future (net) cash flows associated with each existing customer</a>. 
+It is a forward-looking concept, <strong>not</strong> to be confused with <strong>historic customer profitability</strong>.</p>
+
+<p>Not all customers are equally important to a firm. Maintaining long-term relation with all of them 
+(especially the loss makers) is not optimal because eventually marketing is all about attracting and 
+retaining profitable customers. Hence the objective of CLV is firstly on general topics of firm’s 
+<strong>profitability</strong> and secondly as an input in customer acquisition decision and customer 
+<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291520-6653%28199824%2912%3A1%3C17%3A%3AAID-DIR3%3E3.0.CO%3B2-K">acquisition/retention trade-offs</a>. Cost per acquisition (CPA) is the most used metric 
+to gauge and guide firms’ customer acquisition efforts. Evaluating and running acquisition efforts based on CPA 
+is suboptimal because by focusing too much on costs one tries very hard to drive them down as low as possible. 
+Thinking rationally, firms like to think of <a href="http://isiarticles.com/bundles/Article/pre/pdf/22633.pdf">customers as assets</a>; so, instead on focusing on CPA 
+a firm should focus on VPA (value per acquisition) i.e., CLV.</p>
+
+<p>After a customer is acquired, customer relationship management (CRM) activities focus on <a href="https://www.sciencedirect.com/science/article/abs/pii/S0019850106001283?via%3Dihub">retention and 
+long-term customer relationship</a>. A CLV model enables business to adopt suitable strategies for 
+activities within the firm’s CRM.</p>
+
+<p>When developing a model for CLV estimation, one must distinguish the business scenario as either <strong>contractual 
+or non-contractual</strong>. <a href="https://journals.sagepub.com/doi/10.1509/jmkg.64.4.17.18077">In a contractual setting, one observes the time at which customers “die”</a>. 
+A customer not renewing their insurance policy is an example of a no longer active (dead) customer. On the other hand; 
+in a non-contractual setting, the time at which a customer becomes inactive is unobserved. An Amazon customer is an 
+example of this case; a long period of no purchase does not signal that a customer is lost. The challenge of 
+non-contractual settings is to differentiate between <strong>those customers who have ended their relationship with the 
+firm verses those who are simply in the midst of a long hiatus between transactions</strong>.</p>
+
+<p>Another distinction is if the transactions are restricted to <strong>discrete points in time</strong> or can they occur at any point 
+in time? In a continuous purchase scenario, the customer can make a purchase anytime, repeatedly and several times a
+day. These two dimensions lead to a classification of customer bases, as illustrated in <strong>Table 1</strong>.</p>
+
+<h4 id="table-1-classification-of-customer-bases">Table 1: <a href="https://www.sciencedirect.com/science/article/pii/S1094996808000108?via%3Dihub">Classification of Customer Bases</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">Non-contractual Settings</th>
+      <th style="text-align: center">Contractual Settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Continuous Purchases</strong></td>
+      <td style="text-align: center">Grocery purchases, Ecommerce</td>
+      <td style="text-align: center">Payback membership, Credit cards</td>
+    </tr>
+    <tr>
+      <td><strong>Discrete Purchases</strong></td>
+      <td style="text-align: center">Event attendance, Prescription refills</td>
+      <td style="text-align: center">Newspaper subscriptions, Most insurance policies</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="overview-of-modeling-techniques">Overview of Modeling Techniques</h2>
+
+<p>Below is a list of some modelling techniques that have been proposed for continuous purchase non-contractual settings. 
+These are broadly grouped into 2 kinds: Probabilistic and Machine learning models.</p>
+
+<h4 id="probabilistic-models">Probabilistic models:</h4>
+
+<ul>
+  <li>Pareto/NBD (<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.33.1.1">Schmittlein, Morrison, and Colombo 1987</a>)</li>
+  <li>BG/NBD (<a href="http://www.brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf">P. Fader, Hardie, and Lee 2005</a>)</li>
+  <li>MBG/NBD (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0167811607000171">Batislam, Denizel, and Filiztekin 2007</a>)</li>
+  <li>Pareto/GGG (<a href="https://pubsonline.informs.org/doi/10.1287/mksc.2015.0963">Platzer and Reutterer 2016</a>)</li>
+  <li>Gamma Gompertz G/G NBD Model (<a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1110.1461">Bemmaor and Glady 2011</a>)</li>
+  <li>PDO model (<a href="https://www.semanticscholar.org/paper/New-Perspectives-on-Customer-%22Death%22-Using-a-of-the-Jerath-Fader/0eb54ac6b7f37d5860d7ea1a3b8282cc6d33af34">Jerath, Fader, and Hardie 2011</a>)</li>
+  <li>MCMC Pareto/NBD and GG/NBD (<a href="https://ieeexplore.ieee.org/document/4344404/">Ma and Liu 2007</a>)</li>
+  <li>Hierarchical Bayes (<a href="https://pubsonline.informs.org/doi/10.1287/mksc.1090.0502">Abe 2008</a>)</li>
+</ul>
+
+<h4 id="machine-learning-models">Machine learning models:</h4>
+
+<ul>
+  <li>CART + logit/linear regression (<a href="https://www.sciencedirect.com/science/article/pii/S1094996809000541?via%3Dihub">Jamal and Zhang 2009</a>)</li>
+  <li>Hybrid methods (<a href="https://www.emerald.com/insight/content/doi/10.1108/03684921311323626/full/html">Hu et al. 2013</a>)</li>
+  <li>Engagement based CLV (<a href="https://dl.acm.org/citation.cfm?doid=2939672.2939693">Vanderveld et al. 2016</a>)</li>
+</ul>
+
+<p>The reasoning of probabilistic or stochastic models is to describe and predict behavior using observed variables. 
+Behavior is treated as if it were “random” (stochastic) and a model of “collective” individual-level behavior is 
+suggested after accounting for heterogeneity across individuals. 3 fundamental behavioral processes are modelled 
+which are <strong><a href="https://www.youtube.com/watch?v=guj2gVEEx4s">count, timing and, choice</a></strong>; <strong>Table 2</strong> summarizes these behaviors. Count in the present 
+case represents the number of expected orders, timing the expected time between two successive orders and, finally 
+choice reflects if a customer is willing to make a purchase or not. More complex interactions can be captured by 
+combining models from each of these processes. <strong>Table 3</strong> shows some use cases of these behavioral processes.</p>
+
+<h4 id="table-2-summary-of-probability-models">Table 2: Summary of Probability Models</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phenomenon</th>
+      <th>Individual-level</th>
+      <th>Heterogeneity</th>
+      <th>Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Counting</em></td>
+      <td>Poisson</td>
+      <td>Gamma</td>
+      <td>NBD</td>
+    </tr>
+    <tr>
+      <td><em>Timing (continuous)</em></td>
+      <td>Exponential</td>
+      <td>Gamma</td>
+      <td>EG (Pareto)</td>
+    </tr>
+    <tr>
+      <td><em>Timing (discrete)</em></td>
+      <td>Geometric</td>
+      <td>Beta</td>
+      <td>BG</td>
+    </tr>
+    <tr>
+      <td><em>Choice</em></td>
+      <td>Binomial</td>
+      <td>Beta</td>
+      <td>BB</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="table-3-examples-of-integrated-behavioural-modelling">Table 3: Examples of Integrated Behavioural Modelling</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phenomena</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Counting + Timing</em></td>
+      <td>Number of purchases given a customer is alive/dead</td>
+    </tr>
+    <tr>
+      <td><em>Counting + Counting</em></td>
+      <td>Number of purchases and revenue per transaction</td>
+    </tr>
+    <tr>
+      <td><em>Counting + Choice</em></td>
+      <td>Number of clicks on an online ad and eventual buy or not-buy</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://www.emerald.com/insight/content/doi/10.1108/03684921311323626/full/html">Hybrid machine learning techniques have shown better results over single machine learning algorithms</a>. 
+A typical example of such an approach is combining two-stages of decision trees in which the first clustering or 
+classification approach is used to pre-process the data. Then, the output of first stage is used to make predictions. 
+Machine learning models in contrast to stochastic models make no assumption on the distribution of purchase behavior 
+but aim to find patterns from the input features. Additionally, because of varying feature sets among firms any 
+existing framework needs to be tweaked to fit the needs of a particular business situation.</p>
+
+<p>Considering the fact that most firms do not have any models in place and rely on management heuristics, 
+stochastic models are definitely a good first step towards CLV modelling. With this motivation 4 popular 
+stochastic models, the <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.33.1.1">Pareto/NBD</a>, the <a href="http://www.brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf">BG/NBD</a>, the <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167811607000171">MBG/NBD</a> and, 
+the <a href="http://www.brucehardie.com/notes/025/gamma_gamma.pdf">Gamma-Gamma</a> model are selected and discussed in the <a href="https://1dhiman.github.io/blog/rfm_modelling/">next part</a>.</p>
+
+
+  </div><a class="u-url" href="/blog/2020/02/29/what-is-clv.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Anubhav Dhiman</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Anubhav Dhiman</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list">
+  <li><a href="https://github.com/gitdhiman"><svg class="social svg-icon"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg> <span class="username">gitdhiman</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Personal Blog</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

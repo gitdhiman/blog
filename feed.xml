@@ -1,4 +1,173 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://gitdhiman.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gitdhiman.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-02-29T10:00:14-06:00</updated><id>https://gitdhiman.github.io/blog/feed.xml</id><title type="html">Anubhav Dhiman</title><subtitle>Personal Blog</subtitle><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://gitdhiman.github.io/blog/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://gitdhiman.github.io/blog/jupyter/2020/02/20/test</id><content type="html" xml:base="https://gitdhiman.github.io/blog/jupyter/2020/02/20/test.html">&lt;!--
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://gitdhiman.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gitdhiman.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-02-29T10:05:42-06:00</updated><id>https://gitdhiman.github.io/blog/feed.xml</id><title type="html">Anubhav Dhiman</title><subtitle>Personal Blog</subtitle><entry><title type="html">What is customer lifetime value?</title><link href="https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html" rel="alternate" type="text/html" title="What is customer lifetime value?" /><published>2020-02-29T00:00:00-06:00</published><updated>2020-02-29T00:00:00-06:00</updated><id>https://gitdhiman.github.io/blog/2020/02/29/what-is-clv</id><content type="html" xml:base="https://gitdhiman.github.io/blog/2020/02/29/what-is-clv.html">&lt;p&gt;&lt;img src=&quot;/blog/images/grocery.jpg&quot; alt=&quot;&quot; title=&quot;Grocery store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In most cases value of a firm is profits from &lt;strong&gt;existing and future customers&lt;/strong&gt; (a.k.a. Customer Equity). 
+Research done by Frederick Reichheld of Bain &amp;amp; Company (nventor of the net promoter score) showed 
+&lt;a href=&quot;http://www2.bain.com/Images/BB_Prescription_cutting_costs.pdf&quot;&gt;increasing customer retention rates by 5% increased profits by 25% to 95%&lt;/a&gt;. It is possible 
+to calculate Customer Equity (CE) because Customer Lifetime Value (CLV) can be measured with a 
+reasonable degree of precision.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1002/dir.10045&quot;&gt;CLV is the present value of the future (net) cash flows associated with each existing customer&lt;/a&gt;. 
+It is a forward-looking concept, &lt;strong&gt;not&lt;/strong&gt; to be confused with &lt;strong&gt;historic customer profitability&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not all customers are equally important to a firm. Maintaining long-term relation with all of them 
+(especially the loss makers) is not optimal because eventually marketing is all about attracting and 
+retaining profitable customers. Hence the objective of CLV is firstly on general topics of firm’s 
+&lt;strong&gt;profitability&lt;/strong&gt; and secondly as an input in customer acquisition decision and customer 
+&lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291520-6653%28199824%2912%3A1%3C17%3A%3AAID-DIR3%3E3.0.CO%3B2-K&quot;&gt;acquisition/retention trade-offs&lt;/a&gt;. Cost per acquisition (CPA) is the most used metric 
+to gauge and guide firms’ customer acquisition efforts. Evaluating and running acquisition efforts based on CPA 
+is suboptimal because by focusing too much on costs one tries very hard to drive them down as low as possible. 
+Thinking rationally, firms like to think of &lt;a href=&quot;http://isiarticles.com/bundles/Article/pre/pdf/22633.pdf&quot;&gt;customers as assets&lt;/a&gt;; so, instead on focusing on CPA 
+a firm should focus on VPA (value per acquisition) i.e., CLV.&lt;/p&gt;
+
+&lt;p&gt;After a customer is acquired, customer relationship management (CRM) activities focus on &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0019850106001283?via%3Dihub&quot;&gt;retention and 
+long-term customer relationship&lt;/a&gt;. A CLV model enables business to adopt suitable strategies for 
+activities within the firm’s CRM.&lt;/p&gt;
+
+&lt;p&gt;When developing a model for CLV estimation, one must distinguish the business scenario as either &lt;strong&gt;contractual 
+or non-contractual&lt;/strong&gt;. &lt;a href=&quot;https://journals.sagepub.com/doi/10.1509/jmkg.64.4.17.18077&quot;&gt;In a contractual setting, one observes the time at which customers “die”&lt;/a&gt;. 
+A customer not renewing their insurance policy is an example of a no longer active (dead) customer. On the other hand; 
+in a non-contractual setting, the time at which a customer becomes inactive is unobserved. An Amazon customer is an 
+example of this case; a long period of no purchase does not signal that a customer is lost. The challenge of 
+non-contractual settings is to differentiate between &lt;strong&gt;those customers who have ended their relationship with the 
+firm verses those who are simply in the midst of a long hiatus between transactions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another distinction is if the transactions are restricted to &lt;strong&gt;discrete points in time&lt;/strong&gt; or can they occur at any point 
+in time? In a continuous purchase scenario, the customer can make a purchase anytime, repeatedly and several times a
+day. These two dimensions lead to a classification of customer bases, as illustrated in &lt;strong&gt;Table 1&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;table-1-classification-of-customer-bases&quot;&gt;Table 1: &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1094996808000108?via%3Dihub&quot;&gt;Classification of Customer Bases&lt;/a&gt;&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Non-contractual Settings&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Contractual Settings&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Continuous Purchases&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Grocery purchases, Ecommerce&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Payback membership, Credit cards&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Discrete Purchases&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Event attendance, Prescription refills&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Newspaper subscriptions, Most insurance policies&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;overview-of-modeling-techniques&quot;&gt;Overview of Modeling Techniques&lt;/h2&gt;
+
+&lt;p&gt;Below is a list of some modelling techniques that have been proposed for continuous purchase non-contractual settings. 
+These are broadly grouped into 2 kinds: Probabilistic and Machine learning models.&lt;/p&gt;
+
+&lt;h4 id=&quot;probabilistic-models&quot;&gt;Probabilistic models:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pareto/NBD (&lt;a href=&quot;https://pubsonline.informs.org/doi/abs/10.1287/mnsc.33.1.1&quot;&gt;Schmittlein, Morrison, and Colombo 1987&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;BG/NBD (&lt;a href=&quot;http://www.brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf&quot;&gt;P. Fader, Hardie, and Lee 2005&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;MBG/NBD (&lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0167811607000171&quot;&gt;Batislam, Denizel, and Filiztekin 2007&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Pareto/GGG (&lt;a href=&quot;https://pubsonline.informs.org/doi/10.1287/mksc.2015.0963&quot;&gt;Platzer and Reutterer 2016&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Gamma Gompertz G/G NBD Model (&lt;a href=&quot;https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1110.1461&quot;&gt;Bemmaor and Glady 2011&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;PDO model (&lt;a href=&quot;https://www.semanticscholar.org/paper/New-Perspectives-on-Customer-%22Death%22-Using-a-of-the-Jerath-Fader/0eb54ac6b7f37d5860d7ea1a3b8282cc6d33af34&quot;&gt;Jerath, Fader, and Hardie 2011&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;MCMC Pareto/NBD and GG/NBD (&lt;a href=&quot;https://ieeexplore.ieee.org/document/4344404/&quot;&gt;Ma and Liu 2007&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Hierarchical Bayes (&lt;a href=&quot;https://pubsonline.informs.org/doi/10.1287/mksc.1090.0502&quot;&gt;Abe 2008&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;machine-learning-models&quot;&gt;Machine learning models:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CART + logit/linear regression (&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S1094996809000541?via%3Dihub&quot;&gt;Jamal and Zhang 2009&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Hybrid methods (&lt;a href=&quot;https://www.emerald.com/insight/content/doi/10.1108/03684921311323626/full/html&quot;&gt;Hu et al. 2013&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Engagement based CLV (&lt;a href=&quot;https://dl.acm.org/citation.cfm?doid=2939672.2939693&quot;&gt;Vanderveld et al. 2016&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The reasoning of probabilistic or stochastic models is to describe and predict behavior using observed variables. 
+Behavior is treated as if it were “random” (stochastic) and a model of “collective” individual-level behavior is 
+suggested after accounting for heterogeneity across individuals. 3 fundamental behavioral processes are modelled 
+which are &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=guj2gVEEx4s&quot;&gt;count, timing and, choice&lt;/a&gt;&lt;/strong&gt;; &lt;strong&gt;Table 2&lt;/strong&gt; summarizes these behaviors. Count in the present 
+case represents the number of expected orders, timing the expected time between two successive orders and, finally 
+choice reflects if a customer is willing to make a purchase or not. More complex interactions can be captured by 
+combining models from each of these processes. &lt;strong&gt;Table 3&lt;/strong&gt; shows some use cases of these behavioral processes.&lt;/p&gt;
+
+&lt;h4 id=&quot;table-2-summary-of-probability-models&quot;&gt;Table 2: Summary of Probability Models&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Phenomenon&lt;/th&gt;
+      &lt;th&gt;Individual-level&lt;/th&gt;
+      &lt;th&gt;Heterogeneity&lt;/th&gt;
+      &lt;th&gt;Model&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Counting&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Poisson&lt;/td&gt;
+      &lt;td&gt;Gamma&lt;/td&gt;
+      &lt;td&gt;NBD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Timing (continuous)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Exponential&lt;/td&gt;
+      &lt;td&gt;Gamma&lt;/td&gt;
+      &lt;td&gt;EG (Pareto)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Timing (discrete)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Geometric&lt;/td&gt;
+      &lt;td&gt;Beta&lt;/td&gt;
+      &lt;td&gt;BG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Choice&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Binomial&lt;/td&gt;
+      &lt;td&gt;Beta&lt;/td&gt;
+      &lt;td&gt;BB&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;table-3-examples-of-integrated-behavioural-modelling&quot;&gt;Table 3: Examples of Integrated Behavioural Modelling&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Phenomena&lt;/th&gt;
+      &lt;th&gt;Example&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Counting + Timing&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Number of purchases given a customer is alive/dead&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Counting + Counting&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Number of purchases and revenue per transaction&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;Counting + Choice&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;Number of clicks on an online ad and eventual buy or not-buy&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.emerald.com/insight/content/doi/10.1108/03684921311323626/full/html&quot;&gt;Hybrid machine learning techniques have shown better results over single machine learning algorithms&lt;/a&gt;. 
+A typical example of such an approach is combining two-stages of decision trees in which the first clustering or 
+classification approach is used to pre-process the data. Then, the output of first stage is used to make predictions. 
+Machine learning models in contrast to stochastic models make no assumption on the distribution of purchase behavior 
+but aim to find patterns from the input features. Additionally, because of varying feature sets among firms any 
+existing framework needs to be tweaked to fit the needs of a particular business situation.&lt;/p&gt;
+
+&lt;p&gt;Considering the fact that most firms do not have any models in place and rely on management heuristics, 
+stochastic models are definitely a good first step towards CLV modelling. With this motivation 4 popular 
+stochastic models, the &lt;a href=&quot;https://pubsonline.informs.org/doi/abs/10.1287/mnsc.33.1.1&quot;&gt;Pareto/NBD&lt;/a&gt;, the &lt;a href=&quot;http://www.brucehardie.com/notes/009/pareto_nbd_derivations_2005-11-05.pdf&quot;&gt;BG/NBD&lt;/a&gt;, the &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0167811607000171&quot;&gt;MBG/NBD&lt;/a&gt; and, 
+the &lt;a href=&quot;http://www.brucehardie.com/notes/025/gamma_gamma.pdf&quot;&gt;Gamma-Gamma&lt;/a&gt; model are selected and discussed in the &lt;a href=&quot;https://1dhiman.github.io/blog/rfm_modelling/&quot;&gt;next part&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://gitdhiman.github.io/blog/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://gitdhiman.github.io/blog/jupyter/2020/02/20/test</id><content type="html" xml:base="https://gitdhiman.github.io/blog/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
