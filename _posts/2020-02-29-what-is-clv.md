@@ -1,6 +1,11 @@
+---
+toc: false
+description: CLV is the present value of the future (net) cash flows associated with each existing customer. It is a forward-looking concept, not to be confused with historic customer profitability.
+categories: [markdown]
+---
 # What is customer lifetime value?
 
-![]({{ site.baseurl }}/images/grocery.jpg "Grocery store")
+![]({{ site.baseurl }}/images/grocery.jpg)
 
 In most cases value of a firm is profits from **existing and future customers** (a.k.a. Customer Equity). 
 Research done by Frederick Reichheld of Bain & Company (nventor of the net promoter score) showed 
@@ -129,4 +134,4 @@ the [Gamma-Gamma][P. Fader and Hardie 2013] model are selected and discussed in 
 [P. Fader 2013]: https://www.youtube.com/watch?v=guj2gVEEx4s
 [Hu et al. 2013]: https://www.emerald.com/insight/content/doi/10.1108/03684921311323626/full/html
 [P. Fader and Hardie 2013]: http://www.brucehardie.com/notes/025/gamma_gamma.pdf
-[clv-part2]: https://1dhiman.github.io/blog/rfm_modelling/
+[clv-part2]: https://gitdhiman.github.io/blog/
